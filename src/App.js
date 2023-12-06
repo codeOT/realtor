@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import ForgetPassword from './pages/Forgetpass/ForgetPassword';
+// import NavBar from './components/NavBar';
+import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
+import HouseDetails from './pages/HouseDetails/HouseDetails';
+import AddHome from './pages/AddHome/AddHome';
+import Contact from './pages/Contact/Contact';
+// import About from './components/About';
+// import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <section>
+    <div className="">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={ <Home />} />
+          <Route path='/Contact' element={ <Contact />} />
+          <Route path='/About' element={ <Home />} />
+          <Route path='/Login' element={ <Login />} />
+          <Route path='/Signup' element={ <Signup />} />
+          <Route path='/ForgetPass' element={ <ForgetPassword />} />
+          <Route path='/AddHome' element={ <AddHome />} />
+          <Route path='/houses/:id'  element={ <HouseDetails />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
+    {/* <About /> */}
+    
+    </section>
   );
 }
 

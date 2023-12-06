@@ -1,0 +1,116 @@
+{
+  "houses": [
+    {
+      "id": "1",
+      "type": "House",
+      "name": "House 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "image": "House1",
+      "imageLg": "House1Lg",
+      "country": "Ondo state",
+      "address": "1240C Argyle St. Lawndale, CA 90260",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "surface": "4200 sq ft",
+      "year": "2016",
+      "price": "N300,000",
+      "agent": {
+        "image": "Agent1",
+        "name": "Malik Abayomi",
+        "phone": "09058945362"
+      }
+    },
+    {
+      "id": "2",
+      "type": "House",
+      "name": "House 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "image": "House1",
+      "imageLg": "House1Lg",
+      "country": "United States",
+      "address": "2240C Argyle St. Lawndale, CA 90260",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "surface": "4200 sq ft",
+      "year": "2016",
+      "price": "N250,000",
+      "agent": {
+        "image": "Agent1",
+        "name": "Patricia Tullert",
+        "phone": "0123 456 78910"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Apartment",
+      "name": "House 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "image": "House1",
+      "imageLg": "House1Lg",
+      "country": "Lagos",
+      "address": "3240C Argyle St. Lawndale, CA 90260",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "surface": "4200 sq ft",
+      "year": "2016",
+      "price": "N110,000",
+      "agent": {
+        "image": "Agent1",
+        "name": "Abraham Yinka",
+        "phone": "09056734567"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Apartment",
+      "name": "House 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "image": "House1",
+      "imageLg": "House1Lg",
+      "country": "Lagos",
+      "address": "4240C Argyle St. Lawndale, CA 90260",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "surface": "4200 sq ft",
+      "year": "2016",
+      "price": "N100,000",
+      "agent": {
+        "image": "Agent1",
+        "name": "OTD",
+        "phone": "00876784523"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Apartment",
+      "name": "House 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "image": "House1",
+      "imageLg": "House1Lg",
+      "country": "Kaduna",
+      "address": "5240C Argyle St. Lawndale, CA 90260",
+      "bedrooms": "2",
+      "bathrooms": "1",
+      "surface": "4200 sq ft",
+      "year": "2016",
+      "price": "N200,000",
+      "agent": {
+        "image": "Agent1",
+        "name": "Yunus Abdul",
+        "phone": "09076545678"
+      }
+    },
+    {
+      "name": "new",
+      "address": "ikale street",
+      "type": "apartment",
+      "country": "ondo",
+      "bedrooms": "2",
+      "bathrooms": "3",
+      "surface": "3 square",
+      "price": "30000",
+      "description": "good",
+      "id": "mGEztw4"
+    }
+  ]
+}

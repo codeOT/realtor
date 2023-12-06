@@ -1,0 +1,22 @@
+.pagination{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    /* border: 1px solid orange; */
+}
+.page-item{
+    border: 1px solid orange;
+    padding: 5px 10px;
+}
+.page-item:hover{
+    background-color: rgb(241, 139, 22);
+    color: white;
+}
+.page-item:focus{
+    background-color: orange;
+}
+.page-item:active{
+    background-color: orange;
+}
